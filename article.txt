@@ -1,2 +1,616 @@
-Sulmet e ushtrise vazhdimisht hasin ne rezistence te madhe te kështjellareve. Perveç te tjerash, ata mbrohen edhe me rreshire te vale te cilën ua hedhin ushtareve turq, nga te cilet me mijëra mbesin te vrare.
-Romani fillon me vendosjen e trupave osmane përreth keshtjellës.Hapesira aty shndërrohet ne një kamp me plot tenda, reparte e pajisje te tjera.
+Analyses of Same Content Texts Written in Different Languages
+Mentor Hamiti
+Faculty of Contemporary Sciences and Technologies, South East European University
+Ilindenska bb, 1200 Tetovo, R. of Macedonia
+m.hamiti@seeu.edu.mk
+Agni Dika
+Faculty of Electrical and Computer Engineering, University of Pristina
+Pristine, R. of Kosova
+agnidika@yahoo.com
+Abstract. Language is the basic and most
+consummate way of communication between
+people. It can be materialized in two ways:
+spoken and written. Every society has a spoken
+language, even the primitive ones. Although only
+civilized societies have a written language with a
+defined alphabet. The presence of letters in the
+context of words determines the meaning, while
+the determined order of these in words presents
+a work of art.
+It is, thus, understandable to raise the
+question: Which letter is used the most and least
+in different languages? Or maybe there is
+similarity on their distribution even though it has
+to do with languages which use different
+alphabets? Or in general, which are the
+differences or what could different languages
+have in common when they interpret the same
+content?! The answer to this question remains
+within the scope of this paper.
+Keywords. Language, Text, Alphabet, Analyse,
+English, Albanian, Macedonian.
+1. Introduction
+Computer language software and their
+presence on the Internet have become a vital part
+of communication and modern concepts of the
+so-called “scientific field”. Linguists have taken
+seriously the provocation of the computer era in
+the field of linguistics, because computer
+linguistics is the only way for protecting,
+enriching and advancing every language in the
+world.
+The aim of this research is to present the
+continuous development of the languages,
+including the statistical research component.
+With the help of the original program, written in
+C# programming language1
+, and putting the
+computer in service of different languages, text
+with same content were written in English,
+Albanian and Macedonian languages2
+. Linguists
+can use the gained results for further linguistics
+research and analyses.
+2. Classification of alphabet letters and
+the specifics of computer based
+processing
+The classification of letters is specific for
+every language. In our case, the English
+language uses 26 Latin letters. The Albanian
+alphabet consists of 36 letters. In this case,
+beside the Latin letters, other double letters are
+being used as well as two diacritic marks. Whilst,
+the Macedonian language uses the Cyrillic
+alphabet, which also differs from the other two
+languages by the number of letters used (31).
+Therefore, separate study of each language
+specifics for computer based processing is
+needed.
+2.1. English language, the specifics of
+computer based processing
+All letters from the English alphabet are
+available on a standard computer keyboard.
+Therefore, for analytical text analysis, the
+English language has a definite advantage
+compared with other languages. All Latin letters
+are included in the standard keyboard ASCII3
+.
+This represents another additional benefit, for
+using various programming languages in
+1
+Text Analyzer, application prepared by authors
+2
+South East European University, Official languages: English,
+Albanian and Macedonian
+3 ASCII- American Standard Code for Information Interchange
+preparing various applications for textual
+processing. Just to illustrate, I will mention the
+case of using C or C++ and C# programming
+languages. If the text contains characters that are
+not included in ASCII code, then we would
+prefer to prepare the programming language by
+using C# programming language, which
+recognizes all characters included in UNICODE.
+Otherwise, we would have the opportunity to
+choose any language. The English language has
+this advantage and all letters are presented in the
+standard keyboard. Therefore, the process of
+data entry and analysis of text, for many
+languages are being treated as separate
+processes, however concerning the English
+language we have the feeling that they appear
+as one.
+2.2. Albanian language, the specifics of
+computer based processing
+The 36 letters of the Albanian language (Tab.
+1) can be categorized in simple and compound
+letters.
+Table 1. Albanian simple letters
+A
+a
+B
+b
+C
+c
+Ç
+ç
+D
+d
+E
+e
+Ë
+ë
+F
+f
+G
+g
+H
+h
+I
+i
+J
+j
+K
+k
+L
+l
+M
+m
+N
+n
+O
+o
+P
+p
+Q
+q
+R
+r
+S
+s
+T
+t
+U
+u
+V
+v
+X
+x
+Y
+y
+Z
+z
+There are 27 simple letters in total and they
+are represented with one symbol. Twenty-five of
+them are from the Latin alphabet, whereas the
+two letters “Ç ç” and “Ë ë” do not belong to the
+Latin alphabet and are considered as letters that
+possess diacritic signs. These two letters are
+problematic for the usage of computers in
+writing them and for performing analysis on
+texts in Albanian language. The standard
+keyboard contains only the 26 Latin characters,
+so the compromise is found by using one of the
+following options: keyboard configuration where
+some additional Albanian language characters
+are hidden within special keys like parentheses,
+or installing fonts for text processors, or last
+option is using codes for generation of these two
+symbols.
+The compound letters, also known as
+bigrams, are formed by linking two Latin
+characters in one single letter for representing a
+single phoneme in Albanian language. These are
+9 in total [4]:
+Table 2. Albanian compound letters
+Dh
+dh
+Gj
+gj
+Ll
+ll
+Nj
+nj
+Rr
+rr
+Sh
+sh
+Th
+th
+Xh
+xh
+Zh
+zh
+These letters represent another challenge for
+computer analysis, because the combination of
+the two characters should be treated as a single
+letter. Thus, one string should be treated as a
+single letter. Usually the problem is solved by
+implementing different algorithms in
+programming.
+Considering above-mentioned characteristics,
+we can conclude that the existing software for
+textual analysis of other languages, including
+English language, cannot be used for thorough
+analysis of the texts written in Albanian
+language. For this reason, we do not have any
+other choice than to use programming languages
+and to write an original application specifically
+for the textual analysis of the texts written in
+Albanian language.
+As for the standard keyboard, it can be freely
+used for writing in the Albanian language. All
+the Latin letters, 25 in total are located in
+keyboard, whereas the 26th letter “W”, is not
+needed. The compound letters can be written
+using the combination of Latin characters. The
+only problematic letters are the diacritic ones: “Ç
+ç” and “Ë ë”, which can be generated directly
+through character code.
+2.3. Macedonian language, the specifics
+of computer based processing
+All letters of the Macedonian alphabet are not
+included within the standard keyboards. This
+represents additional difficulty in writing the
+language as well as in using existing applications
+for textual analyses. Out of 31 letters of the
+alphabet, only 7 of them partially belong to the
+Latin alphabet, while the others belong to
+Cyrillic alphabet. Writing text on a computer is
+always accompanied with installation of special
+fonts and characters, or configuration of the
+keyboard with Cyrillic alphabet support, which is
+more preferred. This makes the way of text entry
+very noticeable from the additional text
+processing.
+Some of the standard keys on the keyboard
+which contain punctuation marks like:
+semicolon, apostrophe, etc are replaced with
+regular letters. Therefore, the usage of these
+depends on changing the writing mode of the
+keyboard. This has a negative impact on writing
+continuity. In addition, the Cyrillic alphabet
+letters are not included in ASCII code. This
+disables the opportunity for using the existing
+standard applications for textual analysis for the
+mentioned language. For this reason, we use C#
+programming language, because it has
+UNICODE support and contains all letters of the
+Macedonian language [11].
+3. The application for textual analyses
+Considering the specifics of the analyzed
+languages, we have used “Microsoft Visual
+Studio 2005” platform and C# programming
+language within it to design a specific program,
+which fulfills the needs for textual processing of
+English, Albanian and Macedonian languages.
+The source code for this program, used for
+generating the results, is being completely
+offered through this paper.
+The program is called “Text Analyzer” (Fig.
+1). This program totally answers the needs for
+analyzing written texts in all three languages, and
+can be very easily adapted for other languages.
+It enables reading textual files, sets total number
+of characters within the textual file (file with .txt
+extension), counts every single letter,
+punctuation marks and special characters
+separately, like for example empty line, the use
+of TAB and jumping on new line, etc. Also, it
+enables direct calculation of letter appearance
+frequency within the individual textual file.
+Figure 1. Text analyzer
+From Fig. 1, we can notice that the
+application enables choosing one of the
+languages for textual analyzes. In Fig. 2, we can
+notice the evident benefits and characteristics,
+which came as a result of the testing file.
+Figure 2. The results offered “Text Analyzer”
+application
+For achieving accurate results, we analyzed
+official texts from the South East European
+University, because official and competent
+people translate the texts with same content in
+English, Albanian and Macedonian language.
+Approximately, 150 pages were analyzed, with
+around 250,000 characters. Such approach was
+taken due to the lack of securing a bigger dataset.
+Comparing with Languages within EU, where
+you can find the same content in 20+ different
+languages, like the case with dataset JRCAcquis, in the local languages such as Albanian
+and Macedonian, it is very difficult to find
+interpretations parallel to English. Therefore, in
+order to have more truthful results, all texts are
+categorized in 12 groups in content basis, such
+as: statute, decisions, announcements etc, and the
+average values of the results from these groups
+are presented in this paper.
+4. Textual analyzes results
+The number of characters differs for analyzed
+text documents with the same content, but in
+different languages, such as in Albanian,
+Macedonian and English languages. It is
+interesting that the differences appear almost in
+the same proportion if comparing the number of
+characters used and the number of letters in each
+alphabet. (Fig. 3 and Fig. 4) In Albanian
+language, 248,124 characters were used to write
+text with the 36 letters in its alphabet. Second is
+the Macedonian language with 241,933
+characters and with 31 letters in its alphabet.
+Third is the English language with 234,000
+characters and with 26 letters in its alphabet.
+248124
+241933
+234000
+200000
+205000
+210000
+215000
+220000
+225000
+230000
+235000
+240000
+245000
+250000
+Alb Mk Eng
+No. of characters
+Figure 3. Number of characters used in the
+alphabets
+36
+31
+26
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Alb Mk Eng
+Letters of alphabets
+Figure 4. Number of letters used in the
+alphabets
+Based on the category of the characters, the
+following classification was made:
+ Letters,
+ Punctuation marks,
+ Spaces
+ Other symbols
+On this occasion, regarding the punctuation
+marks, the following symbols were calculated: . ,
+: ; ! ? ' „ – ( ).
+Regarding the dispersion of these characters
+among the analyzed three languages, we can
+notice the same distribution for punctuation
+marks and spaces for all three languages. This
+was proved by the following achieved values for
+the punctuation marks: Albanian: 2.42%,
+Macedonian: 2.39% and English: 2.15%. Also,
+the used spaces have the following order:
+Albanian: 15.53%, Macedonian: 15.49% and
+English: 15.41%. This helps us realize that from
+the number of used words for the same content,
+Albanian language is the first, because there
+were used more spaces. Second is the
+Macedonian language and third is English
+language. So, again the language order is like the
+one based on the number of alphabet letters.
+By considering that the alphabet of every
+language consists of vowels and consonants, it is
+reasonable to see if there is a difference between
+these three languages on this category. The
+common thing is that all three languages use
+same vowels: A, O, I, E and U. The Albanian
+language uses two additional vowels: Y and Ë,
+which makes seven the total number of vowels,
+while the other two languages have five vowels
+each. The proportion between the vowels and
+consonants is shown in Tab. 3.
+Table. 3. Proportion vowel/consonant
+Alp. Alb Mk Eng
+Con. 29 80.56% 26 83.87% 21 80.77%
+Vow. 7 19.44% 5 16.13% 5 19.23%
+Here we can see the same dispersion for those
+languages that use the Latin alphabet, Albanian
+and English, have similar proportions
+consonant/vowel 81% with 19%. Less vowels
+were used in Macedonian language, with
+proportion approximately consonant/vowel 84%
+with 16%. However, the results from the
+analytical text analysis are very different.
+Vowels mostly were used in written texts in
+Macedonian language, 44.46% compared to
+consonants. In the second place is the Albanian
+language with 43. 95 %. Fewer vowels were used
+in the English language 40.70 %. Out of this, we
+can conclude that in acoustic aspect, the
+Macedonian language is leading if compared to
+Albanian and English.
+The Macedonian language again differs from
+the Albanian and English languages, because by
+a measurable amount, 12.78 %, the vowel A is
+being used. The other two languages have E as
+their priority vowel: English with 12.98 % and
+Albanian with 11.11 %. In Albanian language, it
+is evident the usage of Ë with 9.37 %, while this
+vowel does not exist in the other two languages.
+0
+2000
+4000
+6000
+8000
+10000
+12000
+14000
+16000
+18000
+20000
+22000
+A B C Ç D DH E Ë F G GJ H I J K L LL M N NJ O P Q R RR S SH T TH U V X XH Y Z
+Alb
+Figure 5. Application frequency of letters in
+Albanian language
+As far as the application of frequency of
+letters concerns, the use of the application brings
+up different characteristics. For the Albanian
+language, based on the textual analysis, the
+following frequencies are generated, concerning
+the appearance of the letters of the alphabet.
+For the Macedonian language, following
+results are achieved (Fig. 6)
+0
+2000
+4000
+6000
+8000
+10000
+12000
+14000
+16000
+18000
+20000
+22000
+А Б В Г Д Ѓ Е Ж З Ѕ И Ј К Л Љ М Н Њ О П Р С Т Ќ У Ф Х Ц Ч Џ Ш
+Mk
+Figure 6. Application frequency of letters in
+Macedonian language
+The results achieved for the English language
+are as follows (Fig. 7).
+0
+2000
+4000
+6000
+8000
+10000
+12000
+14000
+16000
+18000
+20000
+22000
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Eng
+Figure 7. Application frequency of letters in
+English language
+Based on the diagrams, we can notice that the
+Macedonian language differs from the other
+languages with more frequent application of
+vowels. Out of five vowels, four of them are on
+the top of the list among all letters of the
+alphabet: A, O, И, E. Presented in percentage,
+41.6 % of the written text in this language
+consists of these four letters.
+The Albanian and English languages have in
+common the frequent application of the vowel
+“E” and immediately after that the consonant “T”
+[1]. Presented in percentage, 11.11 % (E) +
+10.37 % (T), total 21.48 % of texts written in
+Albanian are made by these two letters. It is
+similar in English language, 12.98 % (E) + 9.79
+% (T), total 22.77 % of texts written in English
+are made by these two letters [9][10][12].
+Out of these three diagrams we can generate a
+list on the usage of the letters for all three
+alphabets, together with frequencies and
+percentage. Where you can see precisely which
+letters and in what volume they are used in their
+alphabets.
+5. Conclusions
+As a result of statistical analysis of the text
+with the same content, but written in different
+languages, Albanian, Macedonian, and English
+language, we have drawn the following
+conclusions:
+ More characters are used for writing the
+text in Albanian language, i.e. in the
+language which has the most letters in the
+alphabet (36). Followed by the
+Macedonian language with 31 alphabets,
+and the last – English language with
+significantly less characters.
+ Punctuation marks (approximately 2%)
+and the other symbols “e tjera”
+(approximately 3%) are in identical ratio
+in all the three languages, in comparison
+with the total number of characters.
+ Spaces make up 15.53% of the total
+number of characters in Albanian, and
+when compared to the 15.49% in
+Macedonian and 15.41% in English
+language. We can conclude that in the
+Albanian language there are more words
+used for the same content, with
+Macedonian language in the second place.
+Finally, fewer words are needed for
+interpreting the same content in English.
+ The vowels vs. consonants ratio in
+Albanian and English language is
+approximately identical 19% vs. 81%,
+whereas in Macedonian language this
+ration is approximately 16% vs. 84%.
+However, the results of this analysis show
+that although this ratio is lower in
+Macedonian language, 44.46% of the text
+is consisted of vowels, compared to
+43.95% in Albanian language and 40.70%
+in English language.
+ It is interesting that for the Macedonian
+language that the four vowels “А”, “О”,
+“И” and “Е” are used more often and
+make up 41.6% of the total number of
+characters. One common thing for the
+Albanian and English language is that the
+most used vowels are “E” and the
+consonant “T” and they make up 21.48%
+(Alb) or 22.77% (Eng) of the total number
+of characters in the written texts in these
+languages [9].
+ In this research we have generated a rank
+list for the usage of letters for the three
+languages: Albanian, Macedonian and
+English, together with their frequencies in
+those languages. The results are compared
+to the publications in English language
+that are cited in this paper. Results are
+identical or very similar, and depend on
+the volume and content of the text, which
+confirms the correctness of the used
+application. When it comes to Albanian
+and Macedonian language, it is difficult to
+find other research in this field, i.e.
+computer based language analysis, for
+comparison purposes.
+ The application designed in C#,
+completely satisfies the requirements for
+text processing written with English,
+Albanian or Macedonian alphabet. Also, it
+is easily modifiable and customizable for
+textual analysis of other languages as well.
+The source code of this computer program
+is given in the appendix of this research
+paper and can be freely used from the
+interested parties.
+6. References
+ [1] Beci, Bahri & Topi, Ermira. Vëzhgime
+për dendurinë e përdorimit të fonemave
+zanore e bashkëtingëllore në gjuhën e sotme
+letrare shqipe. Studime Filologjike nr.1;
+1986, p. 61-67.
+[2] Bosnjakovic, Zarko. Makedonski jezik.
+Citanka. Recnik. Gramatika. Filozofski
+fakultet: Novi Sad; 1986.
+[3] Akademia e Shkencave e Republikës së
+Shqipërisë, Instituti i Gjuhësisë dhe i
+Letërsisë. Fonetika dhe gramatika e gjuhës së
+sotme letrare shqipe. Tiranë; 1976.
+[4] Gokaj, Nuri. Bazat e gjuhësisë së
+përgjithshme. Shkodër; 1997.
+[5] Akademia e Shkencave e Republikës së
+Shqipërisë – Instituti i Gjuhësisë dhe i
+Letërsisë. Gramatika e gjuhës shqipe 1.
+Tiranë; 1995.
+[6] Hamiti, Asllan. Fonetika dhe fonologjia e
+gjuhës standarde shqipe. Interdiskont.
+Shkup; 2005.
+[7] Koneski, B. Istoriceska. Gramatika na
+Makedonski Jazik. Koco Racin. Skopje;
+1965.
+[8] Murphy, Raymond. English Grammar In
+Use. Third edition - Cambridge
+University Press; 2008.
+[9] Oxford University Press. Ask oxford.com.
+http://www.askoxford.com/asktheexperts/
+faq/aboutwords/frequency?view=uk [01/12/
+2008]
+[10] Santa Cruz Public Librarie, 2008. Frequency
+of Occurrence of Letters in English.
+http://www.santacruzpl.org/readyref/files/gl/ltfrqeng.shtml [02/10/2008]
+[11] Sharp, John. Visual C# 2005 Step by Step.
+Microsoft ®: 2005.
+[12]University of Illinois, 2008. Frequency of
+Letters in English Language Text.
+http://www.santacruzpl.org/readyref/files/gl/ltfrqeng.shtml [02/10/2008

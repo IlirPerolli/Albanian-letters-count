@@ -1,45 +1,54 @@
-Fjala me e shpeshte eshte: te -> 8 here. 
+Fjala me e shpeshte eshte: the -> 238 here. 
  
 Shkronjat me te perseritura: 
-a -> 24
-b -> 2
-c -> 3
-ç -> 1
-d -> 4
-dh -> 3
-e -> 55
-ë -> 7
-f -> 1
-g -> 1
-gj -> 0
-h -> 8
-i -> 15
-j -> 8
-k -> 3
-l -> 5
-ll -> 3
-m -> 13
-n -> 16
-nj -> 1
-o -> 7
-p -> 8
-q -> 1
-r -> 18
-rr -> 3
-s -> 10
-sh -> 8
-t -> 26
-th -> 1
-u -> 6
-v -> 8
-x -> 0
-xh -> 0
-y -> 1
-z -> 1
-zh -> 1
-. -> 4
-, -> 3
-? -> 0
-! -> 0
+a -> 1479
+b -> 217
+c -> 531
+ç -> 7
+d -> 425
+dh -> 7
+e -> 1898
+ë -> 45
+f -> 377
+g -> 501
+gj -> 13
+h -> 198
+i -> 1103
+j -> 26
+k -> 93
+l -> 652
+ll -> 51
+m -> 298
+n -> 1205
+nj -> 4
+o -> 903
+p -> 336
+q -> 30
+r -> 856
+rr -> 6
+s -> 923
+sh -> 63
+t -> 930
+th -> 429
+u -> 442
+v -> 112
+x -> 72
+xh -> 3
+y -> 166
+z -> 32
+zh -> 3
+. -> 258
+, -> 197
+? -> 5
+! -> 2
 
-Shkronja me e shpeshte eshte: e -> 55 here.
+Shkronja me e shpeshte eshte: e -> 1898 here. 
+
+Perseritja e zanoreve: 
+a -> 1479
+e -> 1898
+ë -> 45
+i -> 1103
+o -> 903
+u -> 442
+y -> 166
