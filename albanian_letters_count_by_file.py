@@ -45,6 +45,7 @@ for i in letters:
             if (i == j):
                 letters[i[0]]= letters[i[0]]-input.count(i);
                 letters[i[1]]= letters[i[1]]-input.count(i);
+                break
         letters[i]= input.count(i)
 
 print ('Shkronjat e perseritura: \n')
