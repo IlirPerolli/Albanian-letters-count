@@ -91,12 +91,23 @@ for i in bigramet:
 print ('')
 file.close()
 
+plot1 = plt.figure(1)
+
 
 plt.bar(sorted_letters.keys(), sorted_letters.values(), color='#117892')
 plt.title("Shkronjat më të shpeshta")
 plt.ylabel("Numri i përseritjeve")
 plt.xlabel("Shkronjat")
+
+zanoret_e_perseritura = {i:j for i , j in zip(zanoret, [letters[i] for i in zanoret])}
+zanoret_e_sortuara = (dict(sorted(zanoret_e_perseritura.items(), key=lambda item: item[1],reverse=True)))
+zanoret_e_sortuara = dict(itertools.islice(zanoret_e_sortuara.items(), 15)) #merr 15 elementet e para
+
+# print (zanoret_e_sortuara)
+plot2 = plt.figure(2)
+plt.plot(zanoret_e_sortuara.keys(),zanoret_e_sortuara.values(), color='#117892' ,marker='o')
+plt.title("Perseritja e zanoreve")
+plt.ylabel("Numri i përseritjeve")
+plt.xlabel("Shkronjat")
 plt.show()
-
-
 
