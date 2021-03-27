@@ -41,33 +41,10 @@ file.close()
 print(" ")
 for i in letters:
     if (i in input):
-        if (i =='dh'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='gj'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='ll'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='nj'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='rr'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='sh'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='th'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='xh'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
-        elif (i =='zh'):
-            letters[i[0]]= letters[i[0]]-input.count(i);
-            letters[i[1]]= letters[i[1]]-input.count(i);
+        for j in bigramet:
+            if (i == j):
+                letters[i[0]]= letters[i[0]]-input.count(i);
+                letters[i[1]]= letters[i[1]]-input.count(i);
         letters[i]= input.count(i)
 
 print ('Shkronjat e perseritura: \n')
