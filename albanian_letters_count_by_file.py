@@ -103,11 +103,29 @@ zanoret_e_perseritura = {i:j for i , j in zip(zanoret, [letters[i] for i in zano
 zanoret_e_sortuara = (dict(sorted(zanoret_e_perseritura.items(), key=lambda item: item[1],reverse=True)))
 zanoret_e_sortuara = dict(itertools.islice(zanoret_e_sortuara.items(), 15)) #merr 15 elementet e para
 
-# print (zanoret_e_sortuara)
+bigramet_e_perseritura = {i:j for i , j in zip(bigramet, [letters[i] for i in bigramet])}
+bigramet_e_sortuara = (dict(sorted(bigramet_e_perseritura.items(), key=lambda item: item[1],reverse=True)))
+bigramet_e_sortuara = dict(itertools.islice(bigramet_e_sortuara.items(), 15)) #merr 15 elementet e para
+
+
 plot2 = plt.figure(2)
+plt.bar(fjalet_me_te_perseritura.keys(),fjalet_me_te_perseritura.values(), color='#117892' )
+plt.title("Fjalet me te shpeshta")
+plt.ylabel("Numri i përseritjeve")
+plt.xlabel("Fjalet")
+
+# print (zanoret_e_sortuara)
+plot3 = plt.figure(3)
 plt.plot(zanoret_e_sortuara.keys(),zanoret_e_sortuara.values(), color='#117892' ,marker='o')
 plt.title("Perseritja e zanoreve")
 plt.ylabel("Numri i përseritjeve")
 plt.xlabel("Shkronjat")
-plt.show()
 
+plot4 = plt.figure(4)
+plt.plot(bigramet_e_sortuara.keys(),bigramet_e_sortuara.values(), color='#117892' ,marker='o')
+plt.title("Perseritja e bigrameve")
+plt.ylabel("Numri i përseritjeve")
+plt.xlabel("Shkronjat")
+
+
+plt.show()
