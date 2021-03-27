@@ -1,0 +1,45 @@
+Fjala me e shpeshte eshte: te -> 8 here. 
+ 
+Shkronjat me te perseritura: 
+a -> 24
+b -> 2
+c -> 3
+ç -> 1
+d -> 4
+dh -> 3
+e -> 55
+ë -> 7
+f -> 1
+g -> 1
+gj -> 0
+h -> 8
+i -> 15
+j -> 8
+k -> 3
+l -> 5
+ll -> 3
+m -> 13
+n -> 16
+nj -> 1
+o -> 7
+p -> 8
+q -> 1
+r -> 18
+rr -> 3
+s -> 10
+sh -> 8
+t -> 26
+th -> 1
+u -> 6
+v -> 8
+x -> 0
+xh -> 0
+y -> 1
+z -> 1
+zh -> 1
+. -> 4
+, -> 3
+? -> 0
+! -> 0
+
+Shkronja me e shpeshte eshte: e -> 55 here.
