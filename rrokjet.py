@@ -4,17 +4,17 @@ for i in input:
     fjala += i
     if i == 'a':
         fjala +="-"
-    if i == 'e':
+    elif i == 'e':
         fjala +="-"
-    if i == 'ë':
+    elif i == 'ë':
         fjala +="-"
-    if i == 'i':
+    elif i == 'i':
         fjala +="-"
-    if i == 'o':
+    elif i == 'o':
         fjala +="-"
-    if i == 'u':
+    elif i == 'u':
         fjala +="-"
-    if i == 'y':
+    elif i == 'y':
         fjala +="-"
 
 if (fjala[-1] == '-'):
