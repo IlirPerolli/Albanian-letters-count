@@ -26,28 +26,28 @@ for i in letters:
         if (i =='dh'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='gj'):
+        elif (i =='gj'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='ll'):
+        elif (i =='ll'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='nj'):
+        elif (i =='nj'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='rr'):
+        elif (i =='rr'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='sh'):
+        elif (i =='sh'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='th'):
+        elif (i =='th'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='xh'):
+        elif (i =='xh'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
-        if (i =='zh'):
+        elif (i =='zh'):
             letters[i[0]]= letters[i[0]]-input.count(i);
             letters[i[1]]= letters[i[1]]-input.count(i);
         letters[i]= input.count(i)
