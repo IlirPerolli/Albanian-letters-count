@@ -1,21 +1,12 @@
 input = input('Ju lutem shenoni fjalen: ')
 fjala = ''
+zanoret = ['a','e','ë','i', 'o', 'u','y']
 for i in input:
     fjala += i
-    if i == 'a':
-        fjala +="-"
-    elif i == 'e':
-        fjala +="-"
-    elif i == 'ë':
-        fjala +="-"
-    elif i == 'i':
-        fjala +="-"
-    elif i == 'o':
-        fjala +="-"
-    elif i == 'u':
-        fjala +="-"
-    elif i == 'y':
-        fjala +="-"
+    for j in zanoret:
+        if (i == j):
+            fjala +="-"
+            break
 
 if (fjala[-1] == '-'):
     print (fjala[0:len(fjala)-1])
