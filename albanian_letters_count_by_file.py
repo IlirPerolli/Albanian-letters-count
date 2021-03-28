@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 import itertools
 from collections import Counter
 letters = {'a':0,'b':0,'c':0,'ç':0,'d':0,'dh':0,'e':0,'ë':0,'f':0,'g':0,'gj':0,'h':0,'i':0,'j':0,'k':0,'l':0,'ll':0,'m':0,
-           'n':0,'nj':0,'o':0,'p':0,'q':0,'r':0,'rr':0,'s':0,'sh':0,'t':0,'th':0,'u':0,'v':0,'x':0,'xh':0,'y':0,'z':0,'zh':0, '.':0, ',':0, '?':0, '!':0}
+           'n':0,'nj':0,'o':0,'p':0,'q':0,'r':0,'rr':0,'s':0,'sh':0,'t':0,'th':0,'u':0,'v':0,'x':0,'xh':0,'w':0,'y':0,'z':0,'zh':0, '.':0, ',':0, '?':0, '!':0}
 zanoret = ['a','e','ë','i','o', 'u', 'y']
 bigramet = ['dh','gj','ll','nj','rr', 'sh', 'th', 'xh', 'zh']
 
@@ -30,12 +30,20 @@ file = open('output.txt', 'w+')
 file.write('')
 file.close()
 fjalet_input = input.split()
+fjalite_input = input.replace('?','.').replace('!','.').split('.')
 fjalet = Counter(fjalet_input) #numero fjalet
+numri_i_fjaleve = len(fjalet)
+numri_i_karaktereve = len(input)
+numri_i_fjalive = len(fjalite_input)
+print ("Numri i fjaleve: " + str(numri_i_fjaleve))
+print ("Numri i karaktereve: " + str(numri_i_karaktereve))
+print ("Numri i fjalive: " + str(numri_i_fjalive))
 counter_to_dictionary = dict(fjalet) #kthe ne dictionary
 fjalet_me_te_perseritura = sort_dict(counter_to_dictionary)
 
 print ('\nFjala me e shpeshte eshte: ' +str(list(fjalet_me_te_perseritura)[0]) + " -> "+ str(fjalet_me_te_perseritura[list(fjalet_me_te_perseritura)[0]])+ ' here')
 file = open('output.txt', 'a+')
+file.write("Numri i fjaleve: " + str(numri_i_fjaleve)+'\n'+"Numri i karaktereve: " + str(numri_i_karaktereve)+'\n'+"Numri i fjalive: " + str(numri_i_fjalive)+'\n\n')
 file.write('Fjala me e shpeshte eshte: ' +str(list(fjalet_me_te_perseritura)[0]) + " -> "+ str(fjalet_me_te_perseritura[list(fjalet_me_te_perseritura)[0]])+ ' here. \n \n')
 file.close()
 print(" ")
