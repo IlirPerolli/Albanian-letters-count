@@ -29,7 +29,7 @@ file.close()
 file = open('output.txt', 'w+')
 file.write('')
 file.close()
-fjalet_input = input.replace('.',' ').replace(',',' ').replace('?',' ').replace('\'',' ').replace('"',' ').replace(':',' ').split()
+fjalet_input = input.replace('.',' ').replace(',',' ').replace('?',' ').replace('\'',' ').replace('"',' ').replace(':',' ').replace(';',' ').split()
 fjalite_input = input.replace('?','.').replace('!','.').split('.')
 fjalet = Counter(fjalet_input) #numero fjalet
 numri_i_fjaleve = len(fjalet_input)
